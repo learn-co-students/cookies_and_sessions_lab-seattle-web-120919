@@ -1,0 +1,8 @@
+<%= cart %>
+<br>
+<br>
+<%= form_for(:cart) do |f| %>
+<%= f.label "Product" %>
+<%= f.text_field :product%><br>
+<%= f.submit %>
+<%end%>
